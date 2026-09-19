@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (between x:21..87, y:21..87) -->
+    <!-- Document Base with folded corner -->
+    <path
+        android:pathData="M34,26 L62,26 L74,38 L74,80 C74,82.2 72.2,84 70,84 L34,84 C31.8,84 30,82.2 30,80 L30,30 C30,27.8 31.8,26 34,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="26"
+                android:endX="74"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#E2E8F0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Folded corner in copper -->
+    <path
+        android:pathData="M62,26 L74,38 L62,38 Z"
+        android:fillColor="#C87D55" />
+    <!-- Document proposal line items -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,42 L56,42 M38,49 L66,49 M38,56 L62,56" />
+    <!-- Golden Copper Margin & Drafting Compass / Diamond Emblem -->
+    <!-- Compass Pivot Top -->
+    <path
+        android:pathData="M54,46 A4,4 0 1 1 54.01,46"
+        android:fillColor="#D98242" />
+    <!-- Compass Legs / Solar rays -->
+    <path
+        android:strokeColor="#C87D55"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M44,74 L54,50 L64,74" />
+    <!-- Crossbar -->
+    <path
+        android:strokeColor="#E59866"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M47,64 L61,64" />
+    <!-- Solar Sun / Precision spark badge -->
+    <path
+        android:pathData="M64,66 L66,60 L72,58 L66,56 L64,50 L62,56 L56,58 L62,60 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="56"
+                android:startY="50"
+                android:endX="72"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDBA74" />
+                <item android:offset="1.0" android:color="#C87D55" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
